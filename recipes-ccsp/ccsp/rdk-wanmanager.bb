@@ -10,7 +10,7 @@ require recipes-ccsp/ccsp/ccsp_common.inc
 
 #GIT_TAG = "v2.3.0"
 SRCREV = "${AUTOREV}"
-SRC_URI := "git://github.com/KavyaShivalingaiah/RdkWanManager.git;branch=RDKB-55171;protocol=https;name=WanManager"
+SRC_URI := "git://github.com/KavyaShivalingaiah/RdkWanManager.git;branch=RDKB-55171-28Aug;protocol=https;name=WanManager"
 PV = "${RDK_RELEASE}+git${SRCPV}"
 
 S = "${WORKDIR}/git"
